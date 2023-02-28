@@ -1,0 +1,50 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_entrega",
+    "patterns":["Quando sera a ultima entrega?","A ultima entrega será em que dia?"],
+    "responses": ["no dia 05 de Junho"]
+  },
+  {
+    "tag": "grupo",
+    "patterns": ["Até quantas pessoas pode o grupo?","Quantos é o grupo?"],
+    "responses": ["Até quatros pessoas"]
+  },
+  {
+    "tag": "banca",
+    "patterns": ["Em que dia vai ser as avaliações da banca?","Qual o dia da apresentação para banca?"],
+    "responses": ["No dia 19 de Junho"]
+  },
+  {
+    "tag": "orientador",
+    "patterns":["Quem vai ser nosso orientador?","Pode escolher o orientador?"],
+    "responses":["O orientador é escolhido pelos proprios componentes do grupo"]
+  },
+  {
+    "tag": "avaliacao",
+    "patterns":["Como funciona a avaliação?","Qual o metodo de avaliãção do TCC?"],
+    "responses":["A avaliação final do trabalho é uma composição da avaliação da banca, do professor orientador e dos professores da disciplina de Trabalho de Final de Curso."]
+  },
+  {
+    "tag": "tema",
+    "patterns":["Qual o tema?", "Como funciona o tema?", "A gente que escolhe o tema?"],
+    "responses":["Os alunos sao responsaveis pela escolha dos temas a serem abordados em seu trabalho"]
+  },
+  {
+    "tag": "programacao",
+    "patterns":["Qual a programação da materia?", "Aonde fica a programação da materia?", "Onde posso ver a programação da materia?", "Qual a programação?"],
+    "responses":["O conteudo e programação das aulas fica no site do moodle da fei (https://moodle.fei.edu.br)"]
+  },
+  {
+    "tag": "whatsapp",
+    "patterns": ["Qual é o whatsapp da sala?", "Qual o zapzap?","Qual o whats?","Tem grupo da sala?"],
+    "responses":["O Grupo do whatsapp esta localizado no site do moodle"]
+  }
+]
+}
